@@ -1,0 +1,31 @@
+from marketplace.base import INSTALLED_APPS, MIDDLEWARE  # NOQA
+# import sentry_sdk
+# from sentry_sdk.integrations.django import DjangoIntegration
+
+# SECRET_KEY = '...'
+DEBUG = True
+DEBUG_TOOLBAR = True
+
+TIME_ZONE = 'Europe/Istanbul'
+
+# Email Settings
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_HOST = ""
+# EMAIL_PORT = 465
+# EMAIL_HOST_USER = ""
+# EMAIL_HOST_PASSWORD = ""
+# EMAIL_USE_SSL = True
+## EMAIL_USE_TLS = False
+# DEFAULT_FROM_EMAIL = ""
+# DEFAULT_CONTACT_EMAIL = DEFAULT_FROM_EMAIL
+
+ALLOWED_HOSTS = ["*"]
+
+# sentry_sdk.init(
+#     dsn="https://<dsn>",
+#     integrations=[DjangoIntegration()],
+#
+#     # If you wish to associate users to errors (assuming you are using
+#     # django.contrib.auth) you may enable sending PII data.
+#     send_default_pii=True
+# )

@@ -1,0 +1,702 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-20 05:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: basket/admin.py:57
+#, python-brace-format
+msgid "{0} expired coupons deleted!"
+msgstr ""
+
+#: basket/admin.py:59
+msgid "Delete expired coupons"
+msgstr ""
+
+#: basket/admin.py:71
+#, python-brace-format
+msgid "Coupon was duplicated {0} times with new codes."
+msgstr ""
+
+#: basket/admin.py:73
+msgid "Duplicate coupon n times with new codes"
+msgstr ""
+
+#: basket/admin.py:96
+msgid "Selected coupon usages were reset!"
+msgstr ""
+
+#: basket/admin.py:98
+msgid "Reset selected coupon usages"
+msgstr ""
+
+#: basket/models.py:24
+msgid "Total amount"
+msgstr ""
+
+#: basket/models.py:27
+msgid "Basket"
+msgstr ""
+
+#: basket/models.py:28
+msgid "Baskets"
+msgstr ""
+
+#: basket/models.py:57 basket/templates/basket/detail.html:45
+msgid "Quantity"
+msgstr ""
+
+#: basket/models.py:64
+msgid "Basket item"
+msgstr ""
+
+#: basket/models.py:65
+msgid "Basket items"
+msgstr ""
+
+#: basket/models.py:77 basket/models.py:110
+msgid "allowed users rule"
+msgstr ""
+
+#: basket/models.py:82 basket/models.py:123
+msgid "max uses rule"
+msgstr ""
+
+#: basket/models.py:87 basket/models.py:135
+msgid "validity rule"
+msgstr ""
+
+#: basket/models.py:91 basket/models.py:192
+msgid "ruleset"
+msgstr ""
+
+#: basket/models.py:92
+msgid "rulesets"
+msgstr ""
+
+#: basket/models.py:102
+msgid "users"
+msgstr ""
+
+#: basket/models.py:106
+msgid "all users?"
+msgstr ""
+
+#: basket/models.py:111
+msgid "allowed users rules"
+msgstr ""
+
+#: basket/models.py:118
+msgid "maximum uses"
+msgstr ""
+
+#: basket/models.py:119
+msgid "infinite uses?"
+msgstr ""
+
+#: basket/models.py:120
+msgid "uses per user"
+msgstr ""
+
+#: basket/models.py:124
+msgid "max uses rules"
+msgstr ""
+
+#: basket/models.py:131
+msgid "expiration date"
+msgstr ""
+
+#: basket/models.py:132
+msgid "is active?"
+msgstr ""
+
+#: basket/models.py:136
+msgid "validity rules"
+msgstr ""
+
+#: basket/models.py:143
+msgid "user"
+msgstr ""
+
+#: basket/models.py:144 basket/models.py:196
+msgid "coupon"
+msgstr ""
+
+#: basket/models.py:145 basket/models.py:183
+msgid "times used"
+msgstr ""
+
+#: basket/models.py:148
+msgid "coupon user"
+msgstr ""
+
+#: basket/models.py:149
+msgid "coupon users"
+msgstr ""
+
+#: basket/models.py:156
+msgid "value"
+msgstr ""
+
+#: basket/models.py:157
+msgid "is percentage?"
+msgstr ""
+
+#: basket/models.py:160
+msgid "discount"
+msgstr ""
+
+#: basket/models.py:161
+msgid "discounts"
+msgstr ""
+
+#: basket/models.py:174
+msgid "coupon code"
+msgstr ""
+
+#: basket/models.py:187
+msgid "created at"
+msgstr ""
+
+#: basket/models.py:197
+msgid "coupons"
+msgstr ""
+
+#: basket/templates/basket/detail.html:5 basket/templates/basket/detail.html:16
+msgid "Shopping Cart"
+msgstr ""
+
+#: basket/templates/basket/detail.html:17
+msgid "This basket is saved for user: "
+msgstr ""
+
+#: basket/templates/basket/detail.html:58
+msgid "Trash the cart"
+msgstr ""
+
+#: basket/templates/basket/detail.html:63
+msgid "Shopping cart is empty."
+msgstr ""
+
+#: basket/templates/basket/detail.html:64
+msgid "Browse products to add"
+msgstr ""
+
+#: basket/templates/basket/detail.html:70
+msgid "Summary"
+msgstr ""
+
+#: basket/templates/basket/detail.html:72
+msgid "Subtotal"
+msgstr ""
+
+#: basket/templates/basket/detail.html:76
+msgid "Discount"
+msgstr ""
+
+#: basket/templates/basket/detail.html:80
+msgid "Shipping"
+msgstr ""
+
+#: basket/templates/basket/detail.html:84
+msgid "Total"
+msgstr ""
+
+#: basket/templates/basket/detail.html:88
+msgid "Coupon"
+msgstr ""
+
+#: basket/templates/basket/detail.html:96
+msgid "Change Coupon"
+msgstr ""
+
+#: basket/templates/basket/detail.html:98
+msgid "Apply Coupon"
+msgstr ""
+
+#: basket/templates/basket/detail.html:102
+msgid "Checkout"
+msgstr ""
+
+#: basket/views.py:64 basket/views.py:74
+msgid "Product information was not found."
+msgstr ""
+
+#: basket/views.py:86 basket/views.py:95
+msgid "Please, specify a quantity for the item!"
+msgstr ""
+
+#: basket/views.py:116 basket/views.py:156
+msgid "Basket updated"
+msgstr ""
+
+#: basket/views.py:170
+msgid "Basket deleted"
+msgstr ""
+
+#: comment/models.py:9
+msgid "Author"
+msgstr ""
+
+#: comment/models.py:10 product/models.py:76 product/models.py:89
+#: product/models.py:154
+msgid "Product"
+msgstr "Ürün"
+
+#: comment/models.py:11
+msgid "Rate"
+msgstr "Puan"
+
+#: comment/models.py:12
+msgid "Subject"
+msgstr "Başlık"
+
+#: comment/models.py:13 comment/models.py:19
+#: product/templates/product/details.html:140
+msgid "Comment"
+msgstr "Yorum"
+
+#: comment/models.py:14
+#, fuzzy
+#| msgid "Modified"
+msgid "Verified"
+msgstr "Değiştirilme"
+
+#: comment/models.py:15 product/models.py:35 product/models.py:61
+#: product/models.py:94
+msgid "Created"
+msgstr "Oluşturulma"
+
+#: comment/models.py:16 product/models.py:36 product/models.py:62
+#: product/models.py:95
+msgid "Modified"
+msgstr "Değiştirilme"
+
+#: comment/models.py:20 product/templates/product/details.html:73
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comment/views.py:23
+msgid "Product not found!"
+msgstr ""
+
+#: listing/templates/listing/index.html:11
+msgid "Search..."
+msgstr ""
+
+#: listing/templates/listing/index.html:31
+msgid "Details"
+msgstr ""
+
+#: listing/templates/listing/product_list.html:79
+#: product/templates/product/details.html:43
+msgid "N/A"
+msgstr "Puanlanmadı"
+
+#: marketplace/settings.py:97
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: marketplace/settings.py:98
+msgid "English"
+msgstr "English"
+
+#: payment/templates/payment/detail.html:4
+#: payment/templates/payment/detail.html:264
+msgid "Payment"
+msgstr ""
+
+#: payment/templates/payment/detail.html:240
+msgid "Billing Address"
+msgstr ""
+
+#: payment/templates/payment/detail.html:241
+#, fuzzy
+#| msgid "First Name"
+msgid "Full Name"
+msgstr "İsim"
+
+#: payment/templates/payment/detail.html:242
+#: payment/templates/payment/detail.html:273
+#, fuzzy
+#| msgid "First Name"
+msgid "First and last name"
+msgstr "İsim"
+
+#: payment/templates/payment/detail.html:243 user/forms.py:13
+msgid "Email"
+msgstr "E-posta"
+
+#: payment/templates/payment/detail.html:245
+msgid "Address"
+msgstr ""
+
+#: payment/templates/payment/detail.html:250
+msgid "Change the Address"
+msgstr ""
+
+#: payment/templates/payment/detail.html:254
+msgid "Payment Menu"
+msgstr ""
+
+#: payment/templates/payment/detail.html:257
+msgid "Credit Card"
+msgstr ""
+
+#: payment/templates/payment/detail.html:258
+msgid "Pay on Delivery"
+msgstr ""
+
+#: payment/templates/payment/detail.html:265
+msgid "Accepted Cards"
+msgstr ""
+
+#: payment/templates/payment/detail.html:272
+msgid "Name on Card"
+msgstr ""
+
+#: payment/templates/payment/detail.html:274
+msgid "Credit card number"
+msgstr ""
+
+#: payment/templates/payment/detail.html:277
+msgid "Expiry Month"
+msgstr ""
+
+#: payment/templates/payment/detail.html:295
+msgid "Expiry Year"
+msgstr ""
+
+#: payment/templates/payment/detail.html:329
+msgid "PAY"
+msgstr ""
+
+#: product/models.py:23
+msgid "Draft"
+msgstr "Taslak"
+
+#: product/models.py:24
+msgid "Public"
+msgstr ""
+
+#: product/models.py:25
+msgid "Hidden"
+msgstr ""
+
+#: product/models.py:30 product/models.py:49 tags/models.py:6
+msgid "Name"
+msgstr "İsim"
+
+#: product/models.py:31 product/models.py:50 product/models.py:87
+#: tags/models.py:7
+msgid "Slug"
+msgstr ""
+
+#: product/models.py:32 product/models.py:55
+msgid "Description"
+msgstr "Açıklama"
+
+#: product/models.py:33
+msgid "Template icon"
+msgstr ""
+
+#: product/models.py:34
+msgid "Order rank"
+msgstr ""
+
+#: product/models.py:39
+msgid "Product category"
+msgstr ""
+
+#: product/models.py:40
+msgid "Product categories"
+msgstr ""
+
+#: product/models.py:52
+msgid "Category"
+msgstr "Kategori"
+
+#: product/models.py:56
+msgid "Price"
+msgstr "Fiyat"
+
+#: product/models.py:57
+msgid "Available quantity"
+msgstr ""
+
+#: product/models.py:58
+msgid "Barcode"
+msgstr ""
+
+#: product/models.py:59 tags/models.py:11
+msgid "Tags"
+msgstr ""
+
+#: product/models.py:60
+msgid "Status"
+msgstr ""
+
+#: product/models.py:77
+msgid "Products"
+msgstr "Ürünler"
+
+#: product/models.py:86
+msgid "Title"
+msgstr ""
+
+#: product/models.py:92
+msgid "Image"
+msgstr "Resim"
+
+#: product/models.py:93
+msgid "Rank"
+msgstr "Sıralama"
+
+#: product/models.py:98
+msgid "Product image"
+msgstr "Ürün resmi"
+
+#: product/models.py:99
+msgid "Product images"
+msgstr "Ürün resimleri"
+
+#: product/models.py:141
+msgid "Property name"
+msgstr ""
+
+#: product/models.py:144
+msgid "Property option"
+msgstr ""
+
+#: product/models.py:145
+msgid "Property options"
+msgstr ""
+
+#: product/models.py:157
+msgid "Option"
+msgstr ""
+
+#: product/models.py:159
+msgid "Value"
+msgstr ""
+
+#: product/models.py:160
+msgid "Main property"
+msgstr ""
+
+#: product/models.py:163
+msgid "Product property"
+msgstr ""
+
+#: product/models.py:164
+msgid "Product properties"
+msgstr ""
+
+#: product/templates/product/details.html:28
+msgid "Previous"
+msgstr "Önceki"
+
+#: product/templates/product/details.html:32
+msgid "Next"
+msgstr "Sonraki"
+
+#: product/templates/product/details.html:49
+msgid "Add to basket"
+msgstr "Sepete ekle"
+
+#: product/templates/product/details.html:56
+msgid "Additional details"
+msgstr "İlave özellikler"
+
+#: product/templates/product/details.html:75
+#: product/templates/product/details.html:77
+#, fuzzy
+#| msgid "Comment"
+msgid "Add Comment"
+msgstr "Yorum"
+
+#: product/templates/product/details.html:103
+msgid "Anonymous"
+msgstr ""
+
+#: product/templates/product/details.html:113
+msgid "No comments added yet."
+msgstr ""
+
+#: product/templates/product/details.html:125
+msgid "Rating:"
+msgstr ""
+
+#: product/templates/product/details.html:136
+msgid "Heading"
+msgstr ""
+
+#: product/templates/product/details.html:143
+msgid "Add"
+msgstr ""
+
+#: product/views.py:20
+#, python-brace-format
+msgid "Product {slug} was not found!"
+msgstr ""
+
+#: shipment/models.py:118
+msgid "shipment"
+msgstr ""
+
+#: shipment/models.py:119
+msgid "shipments"
+msgstr ""
+
+#: tags/models.py:10
+msgid "Tag"
+msgstr ""
+
+#: templates/base.html:35
+msgid "Dashboard"
+msgstr ""
+
+#: templates/base.html:37
+msgid "Logout"
+msgstr ""
+
+#: templates/base.html:64
+msgid "Login"
+msgstr ""
+
+#: templates/base.html:65 templates/base.html:94
+msgid "Close"
+msgstr ""
+
+#: templates/base.html:74 templates/base.html:75 templates/base.html:103
+#: templates/base.html:104
+#, fuzzy
+#| msgid "Email *"
+msgid "Email address"
+msgstr "E-posta *"
+
+#: templates/base.html:76 templates/base.html:77 templates/base.html:105
+#: templates/base.html:106 user/admin.py:20 user/forms.py:22
+msgid "Password"
+msgstr "Parola"
+
+#: templates/base.html:78
+msgid "Sign in"
+msgstr ""
+
+#: templates/base.html:84 templates/base.html:93 templates/base.html:113
+msgid "Register"
+msgstr ""
+
+#: templates/base.html:107 templates/base.html:108
+#, fuzzy
+#| msgid "First Name"
+msgid "First name"
+msgstr "İsim"
+
+#: templates/base.html:109 templates/base.html:110
+#, fuzzy
+#| msgid "Last Name"
+msgid "Last name"
+msgstr "Soyisim"
+
+#: templates/base.html:111 templates/base.html:112 user/forms.py:70
+#: user/forms.py:73
+msgid "Username"
+msgstr "Kullanıcı ismi"
+
+#: templates/base.html:119
+msgid "Log in"
+msgstr ""
+
+#: templates/base.html:132
+msgid "Site Map"
+msgstr "Site Haritası"
+
+#: templates/base.html:135
+msgid "Legal Terms"
+msgstr "Yasal Şartlar"
+
+#: templates/base.html:138
+msgid "Privacy and Cookies"
+msgstr "Gizlilik ve Çerezler"
+
+#: templates/base.html:141
+msgid "Contact Us"
+msgstr "İletişim"
+
+#: templates/base.html:156
+msgid "Added to basket"
+msgstr "Sepete eklendi"
+
+#: user/admin.py:16
+msgid "Account Info"
+msgstr ""
+
+#: user/admin.py:23
+msgid "Stamps"
+msgstr ""
+
+#: user/forms.py:16
+msgid "Email *"
+msgstr "E-posta *"
+
+#: user/forms.py:26
+msgid "Password *"
+msgstr "Parola *"
+
+#: user/forms.py:45
+#, fuzzy
+#| msgid "A user with that email address already exists."
+msgid "User with that email address is not registered!"
+msgstr "Bu e-posta ile kayıt mevcut."
+
+#: user/forms.py:47
+msgid "Incorrect password"
+msgstr ""
+
+#: user/forms.py:52 user/forms.py:55
+msgid "First Name"
+msgstr "İsim"
+
+#: user/forms.py:61 user/forms.py:64
+msgid "Last Name"
+msgstr "Soyisim"
+
+#: user/forms.py:86
+msgid "A user with that email address already exists."
+msgstr "Bu e-posta ile kayıt mevcut."
+
+#: user/models.py:33
+msgid "User"
+msgstr "Kullanıcı"
+
+#: user/models.py:34
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: user/views.py:21
+msgid "Logged in"
+msgstr ""
+
+#: user/views.py:24
+msgid "Incorrect credentials"
+msgstr ""
+
+#: user/views.py:49
+msgid "Registered"
+msgstr ""
